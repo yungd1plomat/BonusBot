@@ -14,6 +14,7 @@ namespace BonusBot.Entities
         None,
         Start,
         Admin,
+        AddAdmin,
         
         InitAddCountry,
         InitEditCountry,

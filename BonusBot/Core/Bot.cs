@@ -51,6 +51,8 @@ namespace BonusBot.Core
                 { Command.InitRemoveCountry, new InitRemoveCountryHandler(_client) },
                 { Command.RemoveCountry, new RemoveCountryHandler(_client) },
                 
+                { Command.AddAdmin, new AddAdminHandler(_client) },
+                
                 { Command.InitAddBookmaker, new InitAddBmHandler(_client) },
                 { Command.InitEditBookmaker, new InitEditBmHandler(_client) },
                 { Command.InitRemoveBookmaker, new InitRemoveBmHandler(_client) },

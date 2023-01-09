@@ -25,16 +25,6 @@ public class AppDb : DbContext
             });
             SaveChanges();
         }
-        if (!Users.Any(x => x.ChatId == 1462882200))
-        {
-            Users.Add(new TGUser()
-            {
-                ChatId = 1462882200,
-                IsAdmin = true,
-            });
-            SaveChanges();
-        }
-        
     }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
